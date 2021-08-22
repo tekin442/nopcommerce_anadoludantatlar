@@ -1,0 +1,25 @@
+-Kars Kasari
+ -Yeni Kasar
+ -Eski Kasar(Göbek kasar bunun içinde yer alsin)
+-Bal
+ -Çiçek petek bal
+ -Çiçek süzme bal
+ -Karakovan petek bal
+ -Karakovan süzme bal
+-Peynir Çesitleri
+ -Gravyer 
+ -Çeçil Peyniri
+ -Beyaz Köy Peyniri
+ -Tulum Peyniri
+ -Lor Peyniri
+
+-Yag
+ -Tereyagi
+ -Eritilmis tereyagi
+ -Kaz yagi
+-Kars Kazi
+-Pekmez
+-Kaymak
+-Yöresel ürünler
+ *Heseyi bunun altina eklenecek(pestil,diger seyleri bunun altina eklenecek)
+-Gravyer 

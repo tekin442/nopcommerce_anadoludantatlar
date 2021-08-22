@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=37.148.208.15;Initial Catalog=KarsMandira;Integrated Security=False;Persist Security Info=False;User ID=sanew;Password=Mov852456!.

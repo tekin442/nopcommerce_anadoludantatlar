@@ -1,0 +1,14 @@
+- Site tasima. to anadoludantatlar.com
+- Telefon anasayfaya konulacak.
+- Is plani hazirlanacak...
+- Site logo yap...
+- payu arastir. ********
+- Ödeme asamalari hepsiburada n11 referans alinmalidir. 
+- Kartvizit hazilancak.
+- Site tanitim dökümantasyonu hazirla.
+- Site sözlesme.
+- Is takvimi hazirla.
+- Slider boyut düzelt
+- Site template düzelt.
+- Site filter ekle
+- ürünler fiyat araligi ekle

@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>PronopCommerce Theme Installation Document</title>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+        $('body').scrollspy({ target: '#navbar-example' })
+    </script>
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+    <header>
+        <div class="container">
+            <div class="f-left">
+                <a href="http://pronopcommerce.com">
+                    <img src="img/logo_white.png" alt="Pro nopCommerce" />
+                </a>
+            </div>
+            <div class="f-right t-right">
+                <h1>
+                    NopElectro Responsive Theme Installation Document
+                </h1>
+                <p>
+                    Email: <a href="mailto:support@pronopcommerce.com">support@pronopcommerce.com</a>
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <div class="container" id="navbar-example">
+        <div class="sidebar f-left">
+            <ul class="nav">
+                <li class="active">
+                    <a href="#installation">
+                        Installation
+                    </a>
+                </li>
+                <li>
+                    <a href="#settings">
+                        General Settings
+                    </a>
+                </li>
+                <li>
+                    <a href="#management">
+                        Content Management
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content f-right">
+            <p>
+                Welcome! Thanks for choosing pro nopCommerce theme as your store theme. We are very glad that you have decided on our free theme - NopElectro Responsive Theme.
+            </p>
+            <p>
+                The theme is very easy to use and we are here to guide and help you, so please read and follow the instructions and if you have further questions write us an email
+                <a href="mailto:support@pronopcommerce.com"> support@pronopcommerce.com</a>.
+            </p>
+            <div id="installation">
+                <h2>
+                    Installation
+                </h2>
+                <p>
+                    Download your theme at <a href="http://www.pronopcommerce.com/customer/orders" target="blank">http://www.pronopcommerce.com/customer/orders</a>, upload / FTP the “NopElectro” folder into your nopCommerce “Themes” folder.
+                    Next, login to your store’s admin dashboard. Navigate to Configuration > Settings > General Settings, set NopElectro as your desktop store theme.
+                </p>
+                <p>
+                    On the same panel, please add your store logo and set your social media URL.
+                </p>
+            </div>
+            <div id="settings">
+                <h2>
+                    General Settings
+                </h2>
+                <h4>Media Setting</h4>
+                <p>
+                    The media settings of NopElectro demo site is as shown below for your reference. To configure media settings, go to backend, Configuration > Settings > Media Settings.
+                </p>
+                <img src="img/mediasettings.jpg" alt="media settings" />
+            </div>
+            <div id="management">
+                <h2>
+                    Content Management
+                </h2>
+                <h4>
+                    Language – Localization
+                </h4>
+                <p>
+                    After you have plug the theme into your store, you may find some non-human-readable text strings in store front-end, for example “NopElectro.HomePage.Categories” in your store homepage. These text strings are actually manageable (localizable) in nopCommerce.
+                    Now, what you would need to do is to give them meaningful values so that they are human-readable. For example, “NopElectro.HomePage.Categories” has a value of “Popular Categories” at the demo site.
+                </p>
+                <p>
+                    To change the value of each localizable strings, navigate to admin dashboard, Configuration > Languages. Under “string resources”, add the following localization records into the table. If your store implements multiple languages, then you would need to repeat the task for each of the languages.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Resource Name
+                            </th>
+                            <th>
+                                Sample Value
+                            </th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>
+                            NopElectro.HomePage.Categories
+                        </td>
+                        <td>
+                            Popular Categories
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            NopElectro.AvailableOptions
+                        </td>
+                        <td>
+                            Available Options
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            NopElectro.BackToCart
+                        </td>
+                        <td>
+                            Back To Cart
+                        </td>
+                    </tr>
+                </table>
+                <h4>
+                    Nivoslider (Home Sliders)
+                </h4>
+                <p>
+                    Prepare your slides and upload them at admin > Configuration > Widget > Nivoslider.
+                </p>
+                <h4>
+                    Topics
+                </h4>
+                <p>
+                    There are some new topics (content blocks) applied in NopElectro Responsive Theme in addition to the default nopCommerce topics. Navigate to admin dashboard, Configuration > Content Management > Topics (Pages), add the following new topics:
+                </p>
+                <p>
+                    Our theme has included Bootstrap 24-Grid System, you may apply the grid layout in your topic content. Read more <a href="http://getbootstrap.com/css/#grid">here</a>. Please also note that you may enter any kind of content (images or pure text) under these topics.
+                </p>
+                <p>
+                    Note: nopCommerce Topic text editor (TinyMCE) has this feature that will automatically add inline width and height attributes in images. If you wish your inserted image to work responsively, please remove the inline width and height attributes manually before saving.
+                </p>
+                <ol>
+                    <li>
+                        <h4>
+                            NopElectro-Home-Column
+                        </h4>
+                        This is the left column content sits beside home page Nivoslider.
+                        <p>Below is the source code of our demo content:</p>
+                        <xmp>
+                            <p><img src="http://nopelectro-demo.azurewebsites.net/Content/Images/uploaded/promotion.jpg" alt="" width="450" height="459" /></p>
+                            <div style="border: 1px solid #0e9fd6; padding: 20px 15px;">
+                                <p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://nopelectro-demo.azurewebsites.net/Content/Images/uploaded/icon1.png" alt="" width="38" height="30" /></p>
+                                <h4 style="text-align: center; padding-top: 8px;">Free Shipping</h4>
+                                <p class="hidden-sm" style="font-size: 10pt; line-height: 1.4; text-align: center;">Free shipping on all US orders. Nunc volutpat nisl ac. See our FAQ or contact us.</p>
+                            </div>
+                            <div style="border: 1px solid #0e9fd6; padding: 20px 15px;">
+                                <p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://nopelectro-demo.azurewebsites.net/Content/Images/uploaded/icon2.png" alt="" width="35" height="35" /></p>
+                                <h4 style="text-align: center; padding-top: 8px;">Money Back Guarantee</h4>
+                                <p class="hidden-sm" style="font-size: 10pt; line-height: 1.4; text-align: center;">14 days money back guarantee. Nunc volutpat nisl ac. See our FAQ or contact us.</p>
+                            </div>
+                        </xmp>
+                    </li>
+                    <li>
+                        <h4>
+                            NopElectro-Home-Banner-1
+                        </h4>
+                        This is the small banner that sits at the left bottom of home page Nivoslider.
+                        <p>Below is the source code of our demo content:</p>
+                        <xmp>
+                            <p><img src="http://nopelectro-demo.azurewebsites.net/Content/Images/uploaded/nopelectro-4.jpg" alt="" width="700" height="280" /></p>
+                        </xmp>
+                    </li>
+                    <li>
+                        <h4>
+                            NopElectro-Home-Banner-2
+                        </h4>
+                        This is the small banner that sits at the right bottom of home page Nivoslider.
+                        <p>Below is the source code of our demo content:</p>
+                        <xmp>
+                            <p><img src="http://nopelectro-demo.azurewebsites.net/Content/Images/uploaded/nopelectro-3.jpg" alt="" width="700" height="280" /></p>
+                        </xmp>
+                    </li>
+                    <li>
+                        <h4>
+                            NopElectro-Footer
+                        </h4>
+                        This is the fourth column content at Footer.
+                        <p>Below is the source code of our demo content:</p>
+                        <xmp>
+                            <div id="fb-root">&nbsp;</div>
+                            <p>
+                                <script>
+                            // <![CDATA[
+                                    (function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id)) return;
+                                        js = d.createElement(s); js.id = id;
+                                        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+                                    // ]]></script>
+                            </p>
+                            <div class="fb-page" data-href="https://www.facebook.com/nopCommerce/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote class="fb-xfbml-parse-ignore" cite="https://www.facebook.com/nopCommerce/"><a href="https://www.facebook.com/nopCommerce/">NopCommerce</a></blockquote>
+                            </div>
+                        </xmp>
+                    </li>
+                </ol>
+                <h4>
+                    Product Images
+                </h4>
+                <p>
+                    We strongly believe that a good looking theme must come with organized and good quality product images.
+                    Therefore, it is worth for store owner to invest some time to prepare product images in consistent ratio.
+                    In the case of product details image zooming setting is enabled,
+                    the product images should be created in larger size (length should not shorter than 450px) as we have specified in media settings previously).
+                </p>
+                <h3>
+                    Lastly, thank you for choosing NopElectro Responsive Theme. Pro nopCommerce had put in 100% effort in the theme development. Unfortunately, we couldn’t assure that the theme is 100% perfectly working in all sort of situations. Therefore, if you found some errors or bugs in the theme, please report issues at support@pronopcommerce.com.
+                    Enjoy your theme!
+                </h3>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
