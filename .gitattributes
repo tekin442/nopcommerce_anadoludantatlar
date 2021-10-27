@@ -7,4 +7,5 @@
 *.css linguist-detectable=false
 *.html linguist-detectable=false
 *.cshtml linguist-detectable=false
+*.ejs -linguist-detectable=false
 *.csharp linguist-detectable=true
