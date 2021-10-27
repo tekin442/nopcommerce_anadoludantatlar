@@ -7,3 +7,5 @@
 *.sql linguist-detectable=false
 *.HTML linguist-detectable=false
 *.css linguist-detectable=false
+linguist-detectable=false
+*.csharp linguist-detectable=true
